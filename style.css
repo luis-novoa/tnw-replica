@@ -1,0 +1,79 @@
+/* ----------------------------------------------- Common */
+
+h2 {
+  Color: #fff;
+  font-family: Shentox, sans-serif;
+  font-size: 14px;
+}
+
+h3 {
+  color: #fff;
+  font-family: Avalon, sans-serif;
+  font-size: 20px
+}
+
+p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "ARS Marquette", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+
+
+/* ----------------------------------------------- Small*/
+
+@media (max-width: 767px) {
+
+/* Group 1 - Green */
+
+/* Group 2 - Blue */
+
+/* Group 3 - Yellow */
+
+/* Group 4 - Fuschia */
+
+/* Group 5 - Aquamarine */
+
+/* Group 6 - Orange */
+
+/* Small rules above this*/
+}
+
+
+/* ----------------------------------------------- Medium */
+@media (min-width: 768px) {
+
+
+/* Group 1 - Green */
+
+/* Group 2 - Blue */
+
+/* Group 3 - Yellow */
+
+/* Group 4 - Fuschia */
+
+/* Group 5 - Aquamarine */
+
+/* Group 6 - Orange */
+
+/*Medium rules above this*/
+}
+
+/* ----------------------------------------------- Large */
+@media (min-width: 1024px){
+
+
+/* Group 1 - Green */
+
+/* Group 2 - Blue */
+
+/* Group 3 - Yellow */
+
+/* Group 4 - Fuschia */
+
+/* Group 5 - Aquamarine */
+
+/* Group 6 - Orange */
+
+/* Large rules above this*/
+}
+/* ----------------------------------------------- Group 7 - Purple - Footer */
