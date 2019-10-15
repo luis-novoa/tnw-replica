@@ -18,7 +18,23 @@ p {
   font-size: 12px;
 }
 
+#big-blue-article {
+  background: url(./img/main1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%
+}
 
+#small-blue-article-1 {
+  background: url(./img/main2.jpeg) no-repeat;
+  background-size: cover;
+  background-position: 50%
+}
+
+#small-blue-article-2 {
+  background: url(./img/main3.png) no-repeat;
+  background-size: cover;
+  background-position: 50%
+}
 /* ----------------------------------------------- Small*/
 
 @media (max-width: 767px) {
@@ -26,6 +42,21 @@ p {
 /* Group 1 - Green */
 
 /* Group 2 - Blue */
+.blue-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+/*.blue-article {
+height: 35vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-content: space-around;
+
+}
+*/
+
 
 /* Group 3 - Yellow */
 
