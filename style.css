@@ -1,5 +1,7 @@
 /* ----------------------------------------------- Common */
 
+
+
 h2 {
   color: #fff;
   font-family: Shentox, sans-serif;
@@ -93,21 +95,21 @@ p {
 #big-blue-article {
   background: url(./img/main1.jpg) no-repeat;
   background-repeat:no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position-y: center;
 }
 
 #small-blue-article-1 {
   background: url(./img/main2.jpeg) no-repeat;
   background-repeat:no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position-y: center;
 }
 
 #small-blue-article-2 {
   background: url(./img/main3.png) no-repeat;
   background-repeat:no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position-y: center;
 }
 /* ----------------------------------------------- Small*/
@@ -170,8 +172,9 @@ align-content: space-around;
 .blue-section {
   display: grid;
   grid-template-rows: 50% 50%;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 50% 50%;
   grid-gap: 15px;
+  height: 25vh;
 }
 
 #big-blue-article {
@@ -193,8 +196,9 @@ align-content: space-around;
   .blue-section {
     display: grid;
     grid-template-rows: 50% 50%;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 65% 35%;
     grid-gap: 15px;
+    height: 25vh;
   }
   
   #big-blue-article {
