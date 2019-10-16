@@ -1,7 +1,7 @@
 /* ----------------------------------------------- Common */
 
 h2 {
-  Color: #fff;
+  color: #fff;
   font-family: Shentox, sans-serif;
   font-size: 14px;
 }
@@ -9,13 +9,76 @@ h2 {
 h3 {
   color: #fff;
   font-family: Avalon, sans-serif;
-  font-size: 20px
+  font-size: 20px;
 }
 
 p {
   color: rgba(255, 255, 255, 0.6);
   font-family: "ARS Marquette", "Helvetica Neue", sans-serif;
   font-size: 12px;
+}
+
+/* Group 5 - Aquamarine */
+.aquamarine {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.aquamarine article {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.apps-big {
+  background: url(./img/apps1.jpg) 0 0 no-repeat;
+}
+
+.gear-big {
+  background: url(./img/gear1.png) 0 0 no-repeat;
+}
+
+.tech-big {
+  background: url(./img/tech1.jpg) 0 0 no-repeat;
+}
+
+.creative-big {
+  background: url(./img/creative1.png) 0 0 no-repeat;
+}
+
+.podium-big {
+  background: url(./img/podium1.png) 0 0 no-repeat;
+}
+
+.insights-big {
+  background: url(./img/insight1.jpg) 0 0 no-repeat;
+}
+
+.launch-big {
+  background: url(./img/launch1.jpg) 0 0 no-repeat;
+}
+
+.distract-big {
+  background: url(./img/distract1.jpg) 0 0 no-repeat;
+}
+
+.apps-big,
+.creative-big,
+.distract-big,
+.gear-big,
+.insights-big,
+.launch-big,
+.podium-big,
+.tech-big {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+}
+
+.latest-aquamarine {
+  
 }
 
 #big-blue-article {
@@ -57,16 +120,27 @@ align-content: space-around;
 }
 */
 
+  /* Group 2 - Blue */
 
-/* Group 3 - Yellow */
+  /* Group 3 - Yellow */
 
-/* Group 4 - Fuschia */
+  /* Group 4 - Fuschia */
 
-/* Group 5 - Aquamarine */
+  /* Group 5 - Aquamarine */
+  .apps-big,
+  .creative-big,
+  .distract-big,
+  .gear-big,
+  .insights-big,
+  .launch-big,
+  .podium-big,
+  .tech-big {
+    height: 70vw;
+  }
 
-/* Group 6 - Orange */
-
-/* Small rules above this*/
+  /* Group 6 - Orange */
+  
+  /* Small rules above this*/
 }
 
 
