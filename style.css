@@ -19,10 +19,7 @@ p {
 }
 
 
-.blue-article {
-  background-repeat:no-repeat;
-  background-size: 100%;
-  background-position-y: center;
+
 
 /* Group 5 - Aquamarine */
 .aquamarine {
@@ -85,7 +82,12 @@ p {
 
 .latest-aquamarine {
   
+}
 
+.blue-article {
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-position-y: center;
 }
 
 #big-blue-article {
