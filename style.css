@@ -57,6 +57,10 @@ p {
   float: left;
 }
 
+.fuschia-tags {
+  clear: both;
+}
+
 /* Group 5 - Aquamarine */
 .aquamarine {
   display: flex;
@@ -190,6 +194,10 @@ p {
     flex-direction: column;
   }
 
+  .fuschia-hidden {
+    display: none;
+  }
+
   /* Group 5 - Aquamarine */
   .apps-big,
   .creative-big,
@@ -258,6 +266,20 @@ p {
 
 /* Group 4 - Fuschia */
 
+  .fuschia-header-links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fuschia-main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fuschia-hidden {
+    display: none;
+  }
+
 /* Group 5 - Aquamarine */
   .aquamarine {
     display: grid;
@@ -302,23 +324,43 @@ p {
 
 /* Group 4 - Fuschia */
 
+  .fuschia-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .fuschia-header-links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fuschia-main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fuschia-hidden {
+    display: block;
+  }
+
 /* Group 5 - Aquamarine */
 
-.aquamarine {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
+  .aquamarine {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-.apps-big,
-.creative-big,
-.distract-big,
-.gear-big,
-.insights-big,
-.launch-big,
-.podium-big,
-.tech-big {
-  height: 24vw;
-}
+  .apps-big,
+  .creative-big,
+  .distract-big,
+  .gear-big,
+  .insights-big,
+  .launch-big,
+  .podium-big,
+  .tech-big {
+    height: 24vw;
+  }
 
 /* Group 6 - Orange */
 
