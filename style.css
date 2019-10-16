@@ -18,26 +18,66 @@ p {
   font-size: 12px;
 }
 
-/* Group 5 - Aquamarine */
-
-
 /* ----------------------------------------------- Small*/
 
 @media (max-width: 767px) {
 
-/* Group 1 - Green */
+  /* Group 1 - Green */
 
-/* Group 2 - Blue */
+  /* Group 2 - Blue */
 
-/* Group 3 - Yellow */
+  /* Group 3 - Yellow */
 
-/* Group 4 - Fuschia */
+  /* Group 4 - Fuschia */
 
-/* Group 5 - Aquamarine */
+  /* Group 5 - Aquamarine */
+  .apps-big,
+  .creative-big,
+  .distract-big,
+  .gear-big,
+  .insights-big,
+  .launch-big,
+  .podium-big,
+  .tech-big {
+    width: 100%;
+    background-size: contain;
+  }
 
-/* Group 6 - Orange */
+  .apps-big {
+    background: url(./img/apps1.jpg) 0 0 no-repeat;
+  }
 
-/* Small rules above this*/
+  .gear-big {
+    background: url(./img/gear1.png) 0 0 no-repeat;
+  }
+
+  .tech-big {
+    background: url(./img/tech1.jpg) 0 0 no-repeat;
+  }
+
+  .creative-big {
+    background: url(./img/creative1.png) 0 0 no-repeat;
+  }
+
+  .podium-big {
+    background: url(./img/podium1.png) 0 0 no-repeat;
+  }
+
+  .insights-big {
+    background: url(./img/insight1.jpg) 0 0 no-repeat;
+  }
+
+  .launch-big {
+    background: url(./img/launch1.jpg) 0 0 no-repeat;
+  }
+
+  .distract-big {
+    background: url(./img/distract1.jpg) 0 0 no-repeat;
+  }
+
+  /* Group 6 - Orange */
+  
+  /* Small rules above this*/
 }
 
 
