@@ -3,19 +3,19 @@
 
 
 h2 {
-  color: #fff;
+  /*color: #fff;*/
   font-family: Shentox, sans-serif;
   font-size: 14px;
 }
 
 h3 {
-  color: #fff;
+  /*color: #fff;*/
   font-family: Avalon, sans-serif;
   font-size: 20px;
 }
 
 p {
-  color: rgba(255, 255, 255, 0.6);
+  /*color: rgba(255, 255, 255, 0.6);*/
   font-family: "ARS Marquette", "Helvetica Neue", sans-serif;
   font-size: 12px;
 }
@@ -49,6 +49,13 @@ p {
   background-position-y: center;
 }
 
+/* Group 4 - Fuschia */
+.fuschia-img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  float: left;
+}
 /* Group 5 - Aquamarine */
 .aquamarine {
   display: flex;
@@ -166,6 +173,15 @@ p {
 
   /* Group 4 - Fuschia */
 
+  .fuschia {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fuschia-header-links {
+    display: flex;
+    flex-direction: column;
+  }
   /* Group 5 - Aquamarine */
   .apps-big,
   .creative-big,
@@ -211,6 +227,8 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  
 
   .apps-big,
   .creative-big,
