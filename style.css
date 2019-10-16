@@ -140,22 +140,29 @@ p {
     grid-row-gap: 15px;
   }
 
-
-
-/*.blue-article {
-height: 35vh;
-width: 100%;
-display: flex;
-flex-direction: column;
-align-content: space-around;
-
-}
-*/
-
-  /* Group 2 - Blue */
-
-
   /* Group 3 - Yellow */
+
+  .yellow-section {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  }
+
+  .yellow-article {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 15% 85%;
+  }
+
+  .yellow-article-thumbnail {
+    grid-row: 1/3;
+  }
+
+
+  .yellow-article-image {
+    width: auto;
+    height: 150px;
+    overflow: hidden;
+  }
 
   /* Group 4 - Fuschia */
 
