@@ -3,19 +3,19 @@
 
 
 h2 {
-  /*color: #fff;*/
+  color: rgb(255, 0, 0);
   font-family: Shentox, sans-serif;
   font-size: 14px;
 }
 
 h3 {
-  /*color: #fff;*/
+  color: rgb(10, 0, 145);
   font-family: Avalon, sans-serif;
   font-size: 20px;
 }
 
 p {
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(0, 121, 60, 0.6);
   font-family: "ARS Marquette", "Helvetica Neue", sans-serif;
   font-size: 12px;
 }
@@ -49,13 +49,6 @@ p {
   background-position-y: center;
 }
 
-/* Group 4 - Fuschia */
-.fuschia-img {
-  width: 60px;
-  height: 60px;
-  position: relative;
-  float: left;
-}
 /* Group 5 - Aquamarine */
 .aquamarine {
   display: flex;
@@ -152,36 +145,33 @@ p {
   .yellow-section {
     display:grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 10px;
   }
 
   .yellow-article {
     display: grid;
     grid-template-rows: 50% 50%;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 23% 77%;
   }
 
   .yellow-article-thumbnail {
     grid-row: 1/3;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    justify-self: left;
+    margin-right: 15px;
   }
 
 
   .yellow-article-image {
     width: auto;
-    height: 150px;
-    overflow: hidden;
+    height: 100px;
+    
   }
 
   /* Group 4 - Fuschia */
 
-  .fuschia {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .fuschia-header-links {
-    display: flex;
-    flex-direction: column;
-  }
   /* Group 5 - Aquamarine */
   .apps-big,
   .creative-big,
@@ -220,6 +210,36 @@ p {
   }
 /* Group 3 - Yellow */
 
+.yellow-section {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.latest-news {
+  margin-top: 150px;
+  grid-column: 1/4;
+
+.yellow-article {
+  display: grid;
+  grid-template-rows: 60% 20% 20%;  
+}
+
+.yellow-article-thumbnail {
+  
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+
+
+.yellow-article-image {
+  width: auto;
+  height: auto;
+  
+}
+
 /* Group 4 - Fuschia */
 
 /* Group 5 - Aquamarine */
@@ -227,8 +247,6 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  
 
   .apps-big,
   .creative-big,
