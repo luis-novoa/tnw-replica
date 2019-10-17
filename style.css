@@ -40,6 +40,37 @@ ul {
   list-style-type: none;
 }
 
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.normal-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-nav, .lower-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.upper-nav {
+  justify-content: space-between;
+}
+
+.logo {
+  width: 66px;
+  height: 16px;
+  background: palevioletred;
+}
 /* Group 2 - Blue */
 
 .blue-article {
@@ -295,7 +326,12 @@ ul {
 /* ----------------------------------------------- Small*/
 
 @media (max-width: 767px) {
-  
+  /* Header */
+  .normal-nav {
+    display: none;
+  }
+
+
   /* Group 1 - Green */
   
   /* Group 2 - Blue */
@@ -384,8 +420,10 @@ ul {
 
 /* ----------------------------------------------- Medium */
 @media (min-width: 768px) {
-  
-  
+  /* Header */
+  .small-header {
+    display: none;
+  }
 /* Group 1 - Green */
 
 /* Group 2 - Blue */
@@ -485,6 +523,16 @@ ul {
 
 /* ----------------------------------------------- Large */
 @media (min-width: 1024px){
+  /* Header */
+
+  .hidden {
+    display: none;
+  }
+
+  /* Group 1 - Green */
+  
+  /* Group 2 - Blue */
+
   .blue-section {
     display: grid;
     grid-template-rows: 50% 50%;
@@ -496,10 +544,6 @@ ul {
   #big-blue-article {
     grid-row: 1/3;
   }
-
-/* Group 1 - Green */
-
-/* Group 2 - Blue */
 
 /* Group 3 - Yellow */
 

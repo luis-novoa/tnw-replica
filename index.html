@@ -13,65 +13,34 @@
 
 <body>
   <!-- Group 1 - Green -->
-  <header>
+  <header class="header">
     <div class="small-header">
-      <a href="#"></a>
-      <a href="#" class="genericon genericon-search"></a>
-      <div class="genericon genericon-menu"></div>
-      <a href="#">Our blockchain, fintech, and business event in this week. Don't miss it →</a>
-    </div>
-    <div class="small-navs">
-      <nav>
-        <h2>SECTIONS</h2>
-        <a href="#">Latest</a>
-        <a href="#">Insights</a>
-        <a href="#">Hard Fork</a>
-        <a href="#">Plugged</a>
-        <a href="#">Fundamentals</a>
-        <a href="#">Work 2030</a>
-      </nav>
-      <nav>
-        <h2>ABOUT TNW</h2>
-        <a href="#">About</a>
-        <a href="#">Team</a>
-        <a href="#">Advertise</a>
-        <a href="#">Jobs</a>
-        <a href="#">Contact</a>
-        <a href="#">Terms & Conditions</a>
-      </nav>
-      <nav>
-        <h2>TNW SITES</h2>
-        <a href="#">News</a>
-        <a href="#">TNW 2020</a>
-        <a href="#">Hard Fork Summit</a>
-        <a href="#">Index</a>
-        <a href="#">TQ</a>
-        <a href="#">Deals</a>
-        <a href="#">Answers</a>
-      </nav>
+      <a href="#"><img class="logo" src="./img/tnw.svg" alt="TNW logo"></a>
+      <div class="to-the-right">
+        <a href="#" class="genericon genericon-search"></a>
+        <div class="genericon genericon-menu"></div>
+      </div>
     </div>
     <div class="normal-nav">
-      <nav>
-        <a href="#">News</a>
-        <a href="#">Events ▼</a>
-        <a href="#">Hard Fork Summit</a>
-        <a href="#">TNW 2020</a>
-        <a href="#">Business ▼</a>
-        <a href="#">Index</a>
-        <a href="#">TNW X</a>
-        <a href="#">AMAs</a>
-        <a href="#">Spaces</a>
-        <a href="#">Terms & Conditions</a>
-      </nav>
-      <nav>
-        <a href="#">About</a>
-        <a href="#">Team</a>
-        <a href="#">Advertise</a>
-        <a href="#">Jobs</a>
-        <a href="#">Contact</a>
-      </nav>
-      <nav>
-        <img src="./img/tnw.svg" alt="TNW logo" class="hidden">
+      <div class="upper-nav">
+        <nav>
+          <a href="#">News</a>
+          <a href="#">Events ▼</a>
+          <a href="#">Business ▼</a>
+          <a href="#">AMAs</a>
+          <a href="#">Spaces</a>
+          <a href="#">Terms & Conditions</a>
+        </nav>
+        <nav>
+          <a href="#">About</a>
+          <a href="#">Team</a>
+          <a href="#">Advertise</a>
+          <a href="#">Jobs</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+      <nav class="lower-nav">
+        <a href="#"><img class="logo hidden" src="./img/tnw.svg" alt="TNW logo"></a>
         <a href="#">LATEST</a>
         <a href="#">INSIGHTS</a>
         <a href="#">HARD FORK</a>
@@ -80,6 +49,7 @@
         <a href="#">WORK 2030</a>
       </nav>
     </div>
+    <a href="#">Our blockchain, fintech, and business event in this week. Don't miss it →</a>
   </header>
   <main>
     <!-- Group 2 - Blue -->
@@ -88,23 +58,23 @@
       <article class="blue-article" id="big-blue-article">
         <h4 class="blue-article-all-text">WORLD</h4>
         <h1 class="blue-article-all-text">How finding the first exoplanet changed our perception of the universe</h1>
-        <p class="blue-article-all-text">by The Conversation<span class="genericon genericon-time"></span> 2 hours ago <i
-            class="fas fa-share-alt"></i>
+        <p class="blue-article-all-text">by The Conversation<span class="genericon genericon-time"></span> 2 hours ago
+          <i class="fas fa-share-alt"></i>
           1</p>
       </article>
 
       <article class="blue-article" id="small-blue-article-1">
         <h4 class="blue-article-all-text">INSIGHTS</h4>
         <h1 class="blue-article-all-text">North Korea-linked hackers revive cryptocurrency scam to hijack macOS</h1>
-        <p class="blue-article-all-text">by Matthew Beedham <span class="genericon genericon-time"></span> 5 hours ago <i
-            class="fas fa-share-alt"></i>
+        <p class="blue-article-all-text">by Matthew Beedham <span class="genericon genericon-time"></span> 5 hours ago
+          <i class="fas fa-share-alt"></i>
           11</p>
       </article>
       <article class="blue-article" id="small-blue-article-2">
         <h4 class="blue-article-all-text">INSIGHTS</h4>
         <h1 class="blue-article-all-text">Sodinokibi ransomware earns hacker $287K worth of Bitcoin in 3 days</h1>
-        <p class="blue-article-all-text">by Yessi Bello Perez <span class="genericon genericon-time"></span> 5 hours ago <i
-            class="fas fa-share-alt"></i>
+        <p class="blue-article-all-text">by Yessi Bello Perez <span class="genericon genericon-time"></span> 5 hours ago
+          <i class="fas fa-share-alt"></i>
           9</p>
       </article>
     </section>
@@ -617,11 +587,13 @@
       </div>
       <div class="bottom-footer">
         <div>
-          <p class="copyright"><img class="small-tnw" src="./img/tnw.svg" alt=" tnw logo"> © 2006-2019 The Next Web B.V. </p>
+          <p class="copyright"><img class="small-tnw" src="./img/tnw.svg" alt=" tnw logo"> © 2006-2019 The Next Web B.V.
+          </p>
         </div>
         <p class="copyright"> Made with <span class="heart"> ❤ </span> in Amsterdam. </p>
         <div>
-          <p class="copyright">Powered<span id="cheat">_</span>by <img class="stackpath" src="./img/stackpath.svg" alt="stackpath logo"> </p>
+          <p class="copyright">Powered<span id="cheat">_</span>by <img class="stackpath" src="./img/stackpath.svg"
+              alt="stackpath logo"> </p>
         </div>
       </div>
     </footer>
