@@ -77,6 +77,9 @@ ul {
   background-repeat:no-repeat;
   background-size: 100%;
   background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 #big-blue-article {
@@ -95,6 +98,7 @@ ul {
   background-position-y: center;
   font-size: 20px;
   color: white;
+  
 }
 
 #small-blue-article-2 {
@@ -107,8 +111,8 @@ ul {
 }
 
 .blue-article-all-text{
-  margin-left: 5%;
-}
+  margin:1% 0 1% 5%;
+  }
 
 /* Group 4 - Fuschia */
 .fuschia-img {
@@ -538,7 +542,7 @@ ul {
     grid-template-rows: 50% 50%;
     grid-template-columns: 65% 35%;
     grid-gap: 15px;
-    height: 25vh;
+    height: 47vh;
   }
 
   #big-blue-article {
