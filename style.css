@@ -153,6 +153,10 @@ p {
   }
 
   /* Group 3 - Yellow */
+  .latest-news {
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
 
   .yellow-section {
     display:grid;
@@ -239,13 +243,13 @@ p {
   .yellow-section {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 10% 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
 
   .latest-news {
-    margin-top: 150px;
-    grid-column: 1/4;
+    margin-top: 50px;
+    margin-bottom: 15px;
   }
 
   .yellow-article {
@@ -255,7 +259,7 @@ p {
 
   .yellow-article-thumbnail {
     width: 100%;
-    height: 70%;
+    height: 90%;
     overflow: hidden;
   }
 
@@ -321,6 +325,33 @@ p {
 /* Group 2 - Blue */
 
 /* Group 3 - Yellow */
+
+.yellow-section {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.latest-news {
+  margin-top: 150px;
+}
+
+.yellow-article {
+  display: grid;
+  grid-template-rows: 60% 20% 20%; 
+}
+
+.yellow-article-thumbnail {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.yellow-article-image {
+  width: auto;
+  height: auto;
+}
 
 /* Group 4 - Fuschia */
 
