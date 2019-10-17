@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="genericons.css">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="genericons.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -24,7 +24,7 @@
     <div class="normal-nav">
       <div class="upper-nav">
         <nav>
-          <a href="#">News</a>
+          <a href="#" id="news">News</a>
           <a href="#">Events ▼</a>
           <a href="#">Business ▼</a>
           <a href="#">AMAs</a>
@@ -39,15 +39,20 @@
           <a href="#">Contact</a>
         </nav>
       </div>
-      <nav class="lower-nav">
-        <a href="#"><img class="logo hidden" src="./img/tnw.svg" alt="TNW logo"></a>
-        <a href="#">LATEST</a>
-        <a href="#">INSIGHTS</a>
-        <a href="#">HARD FORK</a>
-        <a href="#">PLUGGED</a>
-        <a href="#">FUNDAMENTALS</a>
-        <a href="#">WORK 2030</a>
-      </nav>
+      <div class="lower-nav-wrapper">
+        <nav class="lower-nav">
+          <a href="#"><img class="logo hidden" src="./img/tnw.svg" alt="TNW logo"></a>
+          <a href="#">LATEST</a>
+          <a href="#">INSIGHTS</a>
+          <a href="#">HARD FORK</a>
+          <a href="#">PLUGGED</a>
+          <a href="#">FUNDAMENTALS</a>
+          <a href="#">WORK 2O3O</a>
+        </nav>
+        <div class="search">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
     </div>
     <a href="#">Our blockchain, fintech, and business event in this week. Don't miss it →</a>
   </header>
@@ -70,6 +75,7 @@
           <i class="fas fa-share-alt"></i>
           11</p>
       </article>
+
       <article class="blue-article" id="small-blue-article-2">
         <h4 class="blue-article-all-text">INSIGHTS</h4>
         <h1 class="blue-article-all-text">Sodinokibi ransomware earns hacker $287K worth of Bitcoin in 3 days</h1>

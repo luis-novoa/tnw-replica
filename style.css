@@ -1,6 +1,10 @@
 /* ----------------------------------------------- Common */
 
-h1{
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
   color: white;
   font-family: Shentox, sans-serif;
 }
@@ -18,7 +22,8 @@ h3 {
 }
 
 h4 {
-  font-family: Shentox, sans-serif;
+  font-family: monospace;
+  font-weight: 300;
   font-size: 14px;
 }
 
@@ -28,7 +33,6 @@ h5 {
 
 
 p {
-  font-family: "ARS Marquette", "Helvetica Neue", sans-serif;
   font-size: 12px;
 }
 
@@ -57,13 +61,53 @@ ul {
   flex-direction: column;
 }
 
-.upper-nav, .lower-nav {
+.upper-nav,
+.lower-nav {
   display: flex;
   flex-direction: row;
 }
 
 .upper-nav {
   justify-content: space-between;
+  font-weight: 500;
+  background: #131313;
+
+  font-size: 13px;
+  padding: 10px 15px;
+}
+
+.upper-nav a {
+  color: hsla(0,0%,100%,.6);
+  margin: 0 5px;
+}
+
+.upper-nav a:hover {
+  color: #fff;
+}
+
+.lower-nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.lower-nav a {
+  font-family: monospace;
+  font-weight: 300;
+  color: #aaa;
+  font-size: 14px;
+  margin: 10px 5px;
+}
+
+.search {
+  color: #aaa;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#news {
+  color: #fff;
 }
 
 .logo {
