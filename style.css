@@ -70,7 +70,6 @@ ul {
   justify-content: space-between;
   font-weight: 500;
   background: #131313;
-
   font-size: 13px;
   padding: 10px 15px;
 }
@@ -118,13 +117,13 @@ ul {
 .search-icon {
   height: 18px;
   width: auto;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 /* Group 2 - Blue */
 
 .blue-article {
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: center;
   display: flex;
@@ -144,12 +143,12 @@ ul {
 
 .logo-blue-article {
   width: 400px;
-  height:auto;
+  height: auto;
 }
 
 #small-blue-article-1 {
   background: url(./img/main2.jpeg) no-repeat;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
   font-size: 20px;
