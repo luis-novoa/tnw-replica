@@ -10,13 +10,13 @@ h1 {
 }
 
 h2 {
-  color: rgb(255, 0, 0);
+  color: #ff4422;
   font-family: Shentox, sans-serif;
-  font-size: 14px;
+  font-size: 150%;
 }
 
 h3 {
-  color: rgb(10, 0, 145);
+  color: black;
   font-family: Avalon, sans-serif;
   font-size: 20px;
 }
@@ -211,6 +211,22 @@ ul {
 .blue-article-all-text{
   margin: 1% 0 1% 5%;
   }
+
+/* Group 3 - Yellow */
+
+.latest-news {
+  margin-left: 1%;
+}
+
+.yellow-section {
+  margin: 0 1%;
+}
+
+.yellow-info {
+  color: rgb(165, 164, 164);
+  font-size: 14px;
+  margin-top: 0px;
+}
 
 /* Group 4 - Fuschia */
 .fuschia-img {
@@ -656,9 +672,9 @@ ul {
   .blue-section {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 6.5fr 3.5fr;
+    grid-template-columns: 7fr 3fr;
     grid-gap: 15px;
-    height: 55vh;
+    height: 60vh;
   }
 
   .big-blue-article-logos {
