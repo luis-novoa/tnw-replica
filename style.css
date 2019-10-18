@@ -98,6 +98,10 @@ ul {
   margin: 10px 5px;
 }
 
+.lower-nav a:hover, .search img:hover {
+  color: #000;
+}
+
 .search {
   color: #aaa;
   font-size: 20px;
@@ -134,7 +138,7 @@ ul {
 
 #big-blue-article {
   background: url(./img/main1.jpg);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
   font-size: 35px;
