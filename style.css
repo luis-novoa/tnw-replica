@@ -278,6 +278,37 @@ ul {
   clear: both;
 }
 
+.orange-title-text{
+  margin-left: 30%;
+  padding: 10px 0 14px 0;
+}
+
+.fuschia-article-orange {
+  background: orangered;
+  display: flex;
+  flex-direction: column;
+}
+
+.fuschia-article-light-orange {
+  background: rgb(241, 167, 140);
+}
+
+.fuschia-article-light-orange-text {
+  margin-left: 30%;
+  padding: 15px 0 25px 0;
+}
+
+.fuschia-img {
+ position: absolute;
+ /* try another kind of positioning */
+}
+
+
+
+.orange-gray-background {
+  background: rgb(0, 60, 255);
+}
+
 /* Group 5 - Aquamarine */
 .aquamarine {
   display: flex;
