@@ -264,16 +264,26 @@ a {
 }
 
 /* Group 4 - Fuschia */
+
+.fuschia-title-of-titles {
+  margin-left: 20px;
+}
+
+.fuschia-main {
+  width: 70%;
+  margin: 20px 20px 20px 20px;
+}
+
+
 .fuschia-img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   position: absolute;
-  float: left;
 }
 
 .fuschia-tags {
   clear: both;
-  border-bottom: 1px #ff4422 solid;
+  border-bottom: 1px rgba(255, 68, 34, 0.5) solid;
   padding: 15px 0 15px 0;
 }
 
@@ -314,12 +324,29 @@ color: black;
 .orange-icon {
 height: 12px;
 width: auto;
-margin: 8px 5px 0 5px;
+margin: 8px 5px 5px 20px;
 }
 
+.fuschia-paragraph {
+display: flex;
+flex-direction: row;
+justify-content: baseline;
+}
 
 .orange-gray-background {
   background: #fffaf8;
+}
+
+.fuschia-article-small-text {
+ height: 60px;
+}
+
+.fuschia-little-text {
+  margin: 20px 5px 5px 20px;
+}
+
+.fuschia-little-text-gray {
+  color: rgb(170, 169, 169);
 }
 
 /* Group 5 - Aquamarine */
