@@ -327,6 +327,7 @@ margin: 8px 5px 0 5px;
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 60px 20px;
 }
 
 .aquamarine-article {
@@ -770,7 +771,6 @@ margin: 8px 5px 0 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 60px 20px;
     width: inherit;
   }
   
