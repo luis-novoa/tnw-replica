@@ -196,6 +196,7 @@ a {
 
 /* Group 2 - Blue */
 .blue-section {
+  margin-top: 1vh;
 }
 
 .blue-article {
@@ -266,43 +267,59 @@ a {
 .fuschia-img {
   width: 60px;
   height: 60px;
-  position: relative;
+  position: absolute;
   float: left;
 }
 
 .fuschia-tags {
   clear: both;
+  border-bottom: 1px #ff4422 solid;
+  padding: 15px 0 15px 0;
 }
 
 .orange-title-text{
   margin-left: 30%;
   padding: 10px 0 14px 0;
+  color: white;
+  font-size: 16px;
+  margin-top: 6px;
 }
 
 .fuschia-article-orange {
-  background: orangered;
+  background: #ff4422;
   display: flex;
   flex-direction: column;
+  justify-items: center;
 }
 
 .fuschia-article-light-orange {
-  background: rgb(241, 167, 140);
+  background: #ffebe8;
+  padding: 10px 0 12px 0;
 }
 
 .fuschia-article-light-orange-text {
   margin-left: 30%;
-  padding: 15px 0 25px 0;
+  padding: 3px 0 1px 0;
+  color: #555;
+  font-size: 10px;
 }
 
-.fuschia-img {
-  position: absolute;
- /* try another kind of positioning */
+.fuschia-article-light-orange-money {
+font-weight: 850;
+font-size: 18px;
+color: black;
 }
 
+
+.orange-icon {
+height: 12px;
+width: auto;
+margin: 8px 5px 0 5px;
+}
 
 
 .orange-gray-background {
-  background: rgb(0, 60, 255);
+  background: #fffaf8;
 }
 
 /* Group 5 - Aquamarine */
