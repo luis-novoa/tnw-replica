@@ -98,7 +98,7 @@ a {
   margin: 10px 5px;
 }
 
-.lower-nav a:hover{
+.lower-nav a:hover {
   color: #000;
 }
 
@@ -434,19 +434,21 @@ justify-content: baseline;
   background: linear-gradient(to top, #000, transparent), url(./img/distract.jpg) 0 0 no-repeat;
 }
 
-.apps-big,
-.creative-big,
-.distract-big,
-.gear-big,
-.insights-big,
-.launch-big,
-.podium-big,
-.tech-big {
+.aquamarine-big {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   background-size: cover;
   color: white;
+  padding: 15px 10px;
+}
+
+.aquamarine-big > * {
+  margin-top: 10px;
+}
+
+.aquamarine-big p {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .latest-aquamarine {
@@ -454,11 +456,16 @@ justify-content: baseline;
   flex-direction: row;
   background: rgba(255,68,34,.06);
   color:#f42;
+  padding: 15px 10px;
 }
-
 
 .latest-aquamarine h3 a{
   color:#f42;
+  font-size: 14px;
+}
+
+.latest-aquamarine h3 a:hover{
+  text-decoration: underline #f9c4c1;
 }
 
 .latest-aquamarine div {
