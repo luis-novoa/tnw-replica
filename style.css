@@ -191,7 +191,7 @@ a {
   color: #000;
   font-size: 12px;
   padding: 10px 20px;
-  width: 100%;
+  width: auto;
 }
 
 /* Group 2 - Blue */
@@ -355,7 +355,11 @@ margin: 8px 5px 0 5px;
   padding: 10px;
 }
 
-.aquamarine-article a h3 {
+.white-tag {
+  color: white;
+}
+
+.white-title {
   color: white;
   font-weight: 700;
 }
@@ -425,7 +429,7 @@ margin: 8px 5px 0 5px;
 }
 
 
-.latest-aquamarine h3{
+.latest-aquamarine h3 a{
   color:#f42;
 }
 
@@ -765,6 +769,9 @@ margin: 8px 5px 0 5px;
   .aquamarine {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 60px 20px;
+    width: inherit;
   }
   
   .apps-big,
