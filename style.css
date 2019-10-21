@@ -274,10 +274,10 @@ a {
   margin: 20px 20px 20px 20px;
 }
 
-
 .fuschia-img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+  margin: 11px;
   position: absolute;
 }
 
@@ -286,6 +286,7 @@ a {
   border-bottom: 1px rgba(255, 68, 34, 0.5) solid;
   padding: 15px 0 15px 0;
 }
+
 
 .orange-title-text{
   margin-left: 30%;
@@ -307,6 +308,11 @@ a {
   padding: 10px 0 12px 0;
 }
 
+.orange-title,
+.fuschia-article-light-orange {
+  padding-left: 45px;
+}
+
 .fuschia-article-light-orange-text {
   margin-left: 30%;
   padding: 3px 0 1px 0;
@@ -315,8 +321,8 @@ a {
 }
 
 .fuschia-article-light-orange-money {
-font-weight: 850;
-font-size: 18px;
+  font-weight: 850;
+  font-size: 18px;
 color: black;
 }
 
