@@ -16,10 +16,10 @@
   <!-- Group 1 - Green -->
   <header class="header">
     <div class="small-header">
-      <a href="#"><img id="logo" src="./img/tnw.svg" alt="TNW logo"></a>
+      <a href="#"><img class="logo" src="./img/tnw.svg" alt="TNW logo"></a>
       <div class="to-the-right">
         <div class="small-search-wrapper">
-          <div class="small-search" href="#"></div>
+          <div class="small-search"></div>
         </div>
         <div class="genericon genericon-menu"></div>
       </div>
@@ -44,12 +44,13 @@
       </div>
       <div class="lower-nav-wrapper">
         <nav class="lower-nav">
-          <a href="#" id="logo-anchor"><img id="logo" class="hidden" src="./img/tnw.svg" alt="TNW logo"></a>
-          <a href="#">LATEST</a>
-          <a href="#">HARD FORK</a>
-          <a href="#">PLUGGED</a>
-          <a href="#">FUNDAMENTALS</a>
-          <a href="#">WORK 2O3O</a>
+          <a href="#" class="lower-nav-anchor" id="logo-anchor"><img class="logo hidden" src="./img/tnw.svg"
+              alt="TNW logo"></a>
+          <a href="#" class="lower-nav-anchor">LATEST</a>
+          <a href="#" class="lower-nav-anchor">HARD FORK</a>
+          <a href="#" class="lower-nav-anchor">PLUGGED</a>
+          <a href="#" class="lower-nav-anchor">FUNDAMENTALS</a>
+          <a href="#" class="lower-nav-anchor">WORK 2O3O</a>
         </nav>
         <a href="#">
           <div class="search-wrapper">
@@ -65,15 +66,15 @@
     <!-- Group 2 - Blue -->
 
     <section class="blue-section">
+      <h2 class="always-hidden">Main news</h2>
       <article class="blue-article" id="big-blue-article">
-
         <div class="big-blue-article-logos">
           <img src="./img/tnw.svg" alt="" class="logo-blue-article">
           <p class="date-blue-article">Thursday — October 17, 2019</p>
         </div>
         <div class="big-blue-article-letters">
           <h4 class="blue-article-all-text">WORLD</h4>
-          <h1 class="blue-article-all-text">How finding the first exoplanet changed our perception of the universe</h1>
+          <h2 class="blue-article-all-text">How finding the first exoplanet changed our perception of the universe</h2>
           <p class="blue-article-all-text">by The Conversation<span class="genericon genericon-time"></span> 2 hours ago
             <i class="fas fa-share-alt"></i>
             1</p>
@@ -82,7 +83,7 @@
 
       <article class="blue-article" id="small-blue-article-1">
         <h4 class="blue-article-all-text">INSIGHTS</h4>
-        <h1 class="blue-article-all-text">North Korea-linked hackers revive cryptocurrency scam to hijack macOS</h1>
+        <h2 class="blue-article-all-text">North Korea-linked hackers revive cryptocurrency scam to hijack macOS</h2>
         <p class="blue-article-all-text">by Matthew Beedham <span class="genericon genericon-time"></span> 5 hours ago
           <i class="fas fa-share-alt"></i>
           11</p>
@@ -90,15 +91,15 @@
 
       <article class="blue-article" id="small-blue-article-2">
         <h4 class="blue-article-all-text">INSIGHTS</h4>
-        <h1 class="blue-article-all-text">Sodinokibi ransomware earns hacker $287K worth of Bitcoin in 3 days</h1>
+        <h2 class="blue-article-all-text">Sodinokibi ransomware earns hacker $287K worth of Bitcoin in 3 days</h2>
         <p class="blue-article-all-text">by Yessi Bello Perez <span class="genericon genericon-time"></span> 5 hours ago
           <i class="fas fa-share-alt"></i>
           9</p>
       </article>
     </section>
     <!-- Group 3 - Yellow -->
-    <h2 class="latest-news title-click">LATEST NEWS ></h2>
     <section class="yellow-section">
+      <h2 class="latest-news title-click">LATEST NEWS ></h2>
       <article class="yellow-article">
         <div class="yellow-article-thumbnail"><img class="yellow-article-image" src="./img/latest1.jpg"
             alt="Man in front of a computer with bitcoin symbol on top of it"></div>
@@ -152,9 +153,11 @@
     <section class="fuschia">
       <div class="fuschia-header">
         <h2 class="fuschia-title-of-titles title-click">Latest funding rounds on Index.co ></h2>
-        <aside class="fuschia-header-links"><a class="fuschia-header-links-right" href="#">See more | </a><a
-            class="fuschia-header-links-right" href="#"> Get updates by email | </a><a
-            class="fuschia-header-links-right" href="#"> Add
+        <aside class="fuschia-header-links"><a class="fuschia-header-links-right" href="#">See more<span
+              class="hidden-bar">&nbsp; | &nbsp;</span></a><a class="fuschia-header-links-right" href="#"> Get updates
+            by
+            email<span class="hidden-bar">&nbsp; | &nbsp;</span></a><a class="fuschia-header-links-right" href="#">
+            Add
             info</a></aside>
       </div>
       <div class="fuschia-main">
@@ -277,7 +280,11 @@
           </div>
           <div class="fuschia-tags orange-gray-background">
             <p class="fuschia-paragraph">
-              <a href="#"><img src="./img/icon-tag.png" alt="a tag icon" class="orange-icon"> Recruiting, +2</a>
+              <a href="#"><img src="./img/icon-tag.png" alt="a tag icon" class="orange-icon">
+                <p>
+                  Recruiting, +2
+                </p>
+              </a>
             </p>
             <p class="fuschia-paragraph">
               <a href="#"><img src="./img/icon-case.png" alt="a case icon" class="orange-icon"> Capital Factory, +3</a>
@@ -297,207 +304,224 @@
     </section>
     <!-- Group 5 - Aquamarine -->
     <section class="aquamarine">
+      <h2 class="always-hidden">All Categories</h2>
       <article class="aquamarine-article">
         <h2 class="title-click">Apps ></h2>
-        <a href="#">
-          <div class="apps-big aquamarine-big">
-            <h4 class="white-tag">MOST POPULAR</h4>
-            <h3><a href="#" class="white-title">
-                WhatsApp for Android has mysteriously disappeared from Google Play [Update: It's back]</a></h3>
-            <p>Mix • 3 days ago</p>
-          </div>
-        </a>
+        <div class="apps-big aquamarine-big">
+          <h4 class="white-tag">MOST POPULAR</h4>
+          <h3><a href="#" class="white-title">
+              WhatsApp for Android has mysteriously disappeared from Google Play [Update: It's back]</a></h3>
+          <p>Mix • 3 days ago</p>
+        </div>
         <div class="latest-aquamarine">
           <div>
             <h4>LATEST</h4>
-            <h3><a href="#">Uber is making it easier to bring pets along for the ride</a></h3>
+            <h3><a href="#" class="aquamarine-title">Uber is making it easier to bring pets along for the ride</a></h3>
           </div>
           <img src="./img/apps2.jpg" alt="Dog">
         </div>
         <ul>
-          <li><a href="#">Google is rolling out dark mode for Gmail and Maps</a></li>
-          <li><a href="#">Instagram may finally add DMs to desktop with Messenger-like interface</a></li>
-          <li><a href="#">Call of Duty Mobile crosses 100 million downloads in just a week</a></li>
-          <li><a href="#">Twitter says it used your 2FA info to advertise by accident</a></li>
-          <li><a href="#">YouPorn now lets you create an account without an email</a></li>
+          <li><a href="#" class="aquamarine-list">Google is rolling out dark mode for Gmail and Maps</a></li>
+          <li><a href="#" class="aquamarine-list">Instagram may finally add DMs to desktop with Messenger-like
+              interface</a></li>
+          <li><a href="#" class="aquamarine-list">Call of Duty Mobile crosses 100 million downloads in just a week</a>
+          </li>
+          <li><a href="#" class="aquamarine-list">Twitter says it used your 2FA info to advertise by accident</a></li>
+          <li><a href="#" class="aquamarine-list">YouPorn now lets you create an account without an email</a></li>
         </ul>
       </article>
       <article class="aquamarine-article">
         <h2 class="title-click">Gear ></h2>
-        <a href="#">
-          <div class="gear-big aquamarine-big">
-            <h4 class="white-tag">MOST POPULAR</h4>
-            <h3><a href="#" class="white-title">How to watch Google's Pixel 4 launch event</a></h3>
-            <p>Callum Booth • 9 hours ago</p>
-          </div>
-        </a>
+        <div class="gear-big aquamarine-big">
+          <h4 class="white-tag">MOST POPULAR</h4>
+          <h3><a href="#" class="white-title">How to watch Google's Pixel 4 launch event</a></h3>
+          <p>Callum Booth • 9 hours ago</p>
+        </div>
         <div class="latest-aquamarine">
           <div>
             <h4>LATEST</h4>
-            <h3><a href="#">CHEAP: Screw Google's Pixel 4 — there's 39% off the 3XL</a></h3>
+            <h3><a href="#" class="aquamarine-title">CHEAP: Screw Google's Pixel 4 — there's 39% off the 3XL</a></h3>
           </div>
           <img src="./img/gear2.png" alt="">
         </div>
         <ul>
-          <li><a href="#">Chinese communist party’s app is reportedly spying on its 100M users</a></li>
-          <li><a href="#">CHEAP: Yes please, I will take $200 off the 512GB Samsung Galaxy S10</a></li>
-          <li><a href="#">CHEAP: 12 months of Xbox Live Gold membership for $50? Press F to pay respects</a></li>
-          <li><a href="#">Alexa can now speak Español in the US</a></li>
-          <li><a href="#">Pixelbook Go laptop leaks in hand-on video, Google is still very bad at secrets</a></li>
+          <li><a href="#" class="aquamarine-list">Chinese communist party’s app is reportedly spying on its 100M
+              users</a></li>
+          <li><a href="#" class="aquamarine-list">CHEAP: Yes please, I will take $200 off the 512GB Samsung Galaxy
+              S10</a></li>
+          <li><a href="#" class="aquamarine-list">CHEAP: 12 months of Xbox Live Gold membership for $50? Press F to pay
+              respects</a></li>
+          <li><a href="#" class="aquamarine-list">Alexa can now speak Español in the US</a></li>
+          <li><a href="#" class="aquamarine-list">Pixelbook Go laptop leaks in hand-on video, Google is still very bad
+              at secrets</a></li>
         </ul>
       </article>
       <article class="aquamarine-article">
         <h2 class="title-click">Tech ></h2>
-        <a href="#">
-          <div class="tech-big aquamarine-big">
-            <h4 class="white-tag">MOST POPULAR</h4>
-            <h3><a href="#" class="white-title">Apple under scrutiny for sending Safari browsing data to China's
-                Tencent</a></h3>
-            <p>Ravie Lakshmanan • 12 hours ago</p>
-          </div>
-        </a>
+        <div class="tech-big aquamarine-big">
+          <h4 class="white-tag">MOST POPULAR</h4>
+          <h3><a href="#" class="white-title">Apple under scrutiny for sending Safari browsing data to China's
+              Tencent</a></h3>
+          <p>Ravie Lakshmanan • 12 hours ago</p>
+        </div>
         <div class="latest-aquamarine">
           <div>
             <h4>LATEST</h4>
-            <h3><a href="#">Germany won’t ban Huawei from supplying 5G hardware — despite US
+            <h3><a href="#" class="aquamarine-title">Germany won’t ban Huawei from supplying 5G hardware — despite US
                 pleas</a></h3>
           </div>
           <img src="./img/tech2.png" alt="Huawei logo">
         </div>
         <ul>
-          <li><a href="#">Advanced Israeli spyware is targeting Moroccan human rights activists</a></li>
-          <li><a href="#">How AI could help dementia patients live more independently</a></li>
-          <li><a href="#">Apple under scrutiny for sending Safari browsing data to China's Tencent</a></li>
-          <li><a href="#">Elon Musk's plans for Mars may be more moral catastrophe than bold space exploration</a>
+          <li><a href="#" class="aquamarine-list">Advanced Israeli spyware is targeting Moroccan human rights
+              activists</a></li>
+          <li><a href="#" class="aquamarine-list">How AI could help dementia patients live more independently</a></li>
+          <li><a href="#" class="aquamarine-list">Apple under scrutiny for sending Safari browsing data to China's
+              Tencent</a></li>
+          <li><a href="#" class="aquamarine-list">Elon Musk's plans for Mars may be more moral catastrophe than bold
+              space exploration</a>
           </li>
-          <li><a href="#">This exoplanet challenges our understanding of planet formation</a></li>
+          <li><a href="#" class="aquamarine-list">This exoplanet challenges our understanding of planet formation</a>
+          </li>
         </ul>
       </article>
       <article class="aquamarine-article">
         <h2 class="title-click">Creative ></h2>
-        <a href="#">
-          <div class="creative-big aquamarine-big">
-            <h4 class="white-tag">MOST POPULAR</h4>
-            <h3><a href="#" class="white-title">Microsoft's new font for devs is very aesthetically pleasing (and
-                free)</a></h3>
-            <p>Mix • 25 days ago</p>
-          </div>
-        </a>
+        <div class="creative-big aquamarine-big">
+          <h4 class="white-tag">MOST POPULAR</h4>
+          <h3><a href="#" class="white-title">Microsoft's new font for devs is very aesthetically pleasing (and
+              free)</a></h3>
+          <p>Mix • 25 days ago</p>
+        </div>
         <div class="latest-aquamarine">
           <div>
             <h4>LATEST</h4>
-            <h3><a href="#">How to build a production and recording studio that fits in a
+            <h3><a href="#" class="aquamarine-title">How to build a production and recording studio that fits in a
                 backpack</a></h3>
           </div>
           <img src="./img/creative2.jpg" alt="Sound management system">
         </div>
         <ul>
-          <li><a href="#">Watch: Disney’s new anti-vibration tech maps CGI movements onto actual robots</a></li>
-          <li><a href="#">Chinese vertical dramas made for phone viewing show the future of mobile video</a></li>
-          <li><a href="#">Sorry, but you can’t copyright a meme</a></li>
-          <li><a href="#">A peek at legendary architect John Storyk's design process</a></li>
-          <li><a href="#">Watch: Sony made a God of War documentary as good as the game</a></li>
+          <li><a href="#" class="aquamarine-list">Watch: Disney’s new anti-vibration tech maps CGI movements onto actual
+              robots</a></li>
+          <li><a href="#" class="aquamarine-list">Chinese vertical dramas made for phone viewing show the future of
+              mobile video</a></li>
+          <li><a href="#" class="aquamarine-list">Sorry, but you can’t copyright a meme</a></li>
+          <li><a href="#" class="aquamarine-list">A peek at legendary architect John Storyk's design process</a></li>
+          <li><a href="#" class="aquamarine-list">Watch: Sony made a God of War documentary as good as the game</a></li>
         </ul>
       </article>
       <article class="aquamarine-article">
         <h2 class="title-click">Podium ></h2>
-        <a href="#">
-          <div class="podium-big aquamarine-big">
-            <h4 class="white-tag">MOST POPULAR</h4>
-            <h3><a href="#" class="white-title">The monolith myth: Why all-in-one tech suites aren’t the solution</a>
-            </h3>
-            <p>Chris Yates • 8 hours ago</p>
-          </div>
-        </a>
+        <div class="podium-big aquamarine-big">
+          <h4 class="white-tag">MOST POPULAR</h4>
+          <h3><a href="#" class="white-title">The monolith myth: Why all-in-one tech suites aren’t the solution</a>
+          </h3>
+          <p>Chris Yates • 8 hours ago</p>
+        </div>
         <div class="latest-aquamarine">
           <div>
             <h4>LATEST</h4>
-            <h3><a href="#">Microsoft brought book burning into the digital age — and you should be
+            <h3><a href="#" class="aquamarine-title">Microsoft brought book burning into the digital age — and you
+                should be
                 worried</a></h3>
           </div>
           <img src="./img/podium2.png" alt="Pixel art of a book burning">
         </div>
         <ul>
-          <li><a href="#">The best way to get driverless cars on the road is to make them less conservative</a></li>
-          <li><a href="#">5 lessons I learned from Gary Vaynerchuk at a tech conference in Armenia</a></li>
-          <li><a href="#">Want to succeed as an entrepreneur? Stop job hopping and find your ‘modern MBA’</a></li>
-          <li><a href="#">14 ways to clarify project scope with your programming team</a></li>
-          <li><a href="#">Data analysis: Where you should focus your link-building efforts</a></li>
+          <li><a href="#" class="aquamarine-list">The best way to get driverless cars on the road is to make them less
+              conservative</a></li>
+          <li><a href="#" class="aquamarine-list">5 lessons I learned from Gary Vaynerchuk at a tech conference in
+              Armenia</a></li>
+          <li><a href="#" class="aquamarine-list">Want to succeed as an entrepreneur? Stop job hopping and find your
+              ‘modern MBA’</a></li>
+          <li><a href="#" class="aquamarine-list">14 ways to clarify project scope with your programming team</a></li>
+          <li><a href="#" class="aquamarine-list">Data analysis: Where you should focus your link-building efforts</a>
+          </li>
         </ul>
       </article>
       <article class="aquamarine-article">
         <h2 class="title-click">Insights ></h2>
-        <a href="#">
-          <div class="insights-big aquamarine-big">
-            <h4 class="white-tag">MOST POPULAR</h4>
-            <h3><a href="#" class="white-title">How a blockchain-based digital ID system could help tackle human
-                trafficking</a></h3>
-            <p>Yessi Bello Perez • 7 hours ago</p>
-          </div>
-        </a>
+        <div class="insights-big aquamarine-big">
+          <h4 class="white-tag">MOST POPULAR</h4>
+          <h3><a href="#" class="white-title">How a blockchain-based digital ID system could help tackle human
+              trafficking</a></h3>
+          <p>Yessi Bello Perez • 7 hours ago</p>
+        </div>
         <div class="latest-aquamarine">
           <div>
             <h4>LATEST</h4>
-            <h3><a href="#">Researchers find Bitcoin sextortion malware also mines Monero</a></h3>
+            <h3><a href="#" class="aquamarine-title">Researchers find Bitcoin sextortion malware also mines Monero</a>
+            </h3>
           </div>
           <img src="./img/insight2.jpg" alt="Mysterious man using a computer with a bitcoin symbol">
         </div>
         <ul>
-          <li><a href="#">North Korea-linked hackers revive cryptocurrency scam to hijack macOS</a></li>
-          <li><a href="#">Sodinokibi ransomware earns hacker $287K worth of Bitcoin in 3 days</a></li>
-          <li><a href="#">Europol: Bitcoin is the still the dark web’s favorite cryptocurrency</a></li>
-          <li><a href="#">How a blockchain-based digital ID system could help tackle human trafficking</a></li>
-          <li><a href="#">ING says bank-owned digital currencies are coming — and we’re all doomed</a></li>
+          <li><a href="#" class="aquamarine-list">North Korea-linked hackers revive cryptocurrency scam to hijack
+              macOS</a></li>
+          <li><a href="#" class="aquamarine-list">Sodinokibi ransomware earns hacker $287K worth of Bitcoin in 3
+              days</a></li>
+          <li><a href="#" class="aquamarine-list">Europol: Bitcoin is the still the dark web’s favorite
+              cryptocurrency</a></li>
+          <li><a href="#" class="aquamarine-list">How a blockchain-based digital ID system could help tackle human
+              trafficking</a></li>
+          <li><a href="#" class="aquamarine-list">ING says bank-owned digital currencies are coming — and we’re all
+              doomed</a></li>
         </ul>
       </article>
       <article class="aquamarine-article">
         <h2 class="title-click">Launch</h2>
-        <a href="#">
-          <div class="launch-big aquamarine-big">
-            <h4 class="white-tag">MOST POPULAR</h4>
-            <h3><a href="#" class="white-title">Google Assistant gets its own phone number in India</a></h3>
-            <p>Ivan Mehta • 25 days ago</p>
-          </div>
-        </a>
+        <div class="launch-big aquamarine-big">
+          <h4 class="white-tag">MOST POPULAR</h4>
+          <h3><a href="#" class="white-title">Google Assistant gets its own phone number in India</a></h3>
+          <p>Ivan Mehta • 25 days ago</p>
+        </div>
         <div class="latest-aquamarine">
           <div>
             <h4>LATEST</h4>
-            <h3><a href="#">Pam and Angela from The Office are re-watching the show for their new
+            <h3><a href="#" class="aquamarine-title">Pam and Angela from The Office are re-watching the show for their
+                new
                 podcast</a></h3>
           </div>
           <img src="./img/launch2.jpg" alt="The Office series scene">
         </div>
         <ul>
-          <li><a href="#">Bethesda wants you to test its game streaming tech with DOOM on iOS this year</a></li>
-          <li><a href="#">Mozilla rolls out new automated crypto-jacking filtering in Firefox</a></li>
-          <li><a href="#">Google announces Stadia, its cross-platform game streaming service</a></li>
-          <li><a href="#">Binance will let you buy Bitcoin with cash from 1,300 stores in Australia</a></li>
-          <li><a href="#">YouTube Music launches in India to battle it out with Spotify et al</a></li>
+          <li><a href="#" class="aquamarine-list">Bethesda wants you to test its game streaming tech with DOOM on iOS
+              this year</a></li>
+          <li><a href="#" class="aquamarine-list">Mozilla rolls out new automated crypto-jacking filtering in
+              Firefox</a></li>
+          <li><a href="#" class="aquamarine-list">Google announces Stadia, its cross-platform game streaming service</a>
+          </li>
+          <li><a href="#" class="aquamarine-list">Binance will let you buy Bitcoin with cash from 1,300 stores in
+              Australia</a></li>
+          <li><a href="#" class="aquamarine-list">YouTube Music launches in India to battle it out with Spotify et
+              al</a></li>
         </ul>
       </article>
       <article class="aquamarine-article">
         <h2 class="title-click">Distract ></h2>
-        <a href="#">
-          <div class="distract-big aquamarine-big">
-            <h4 class="white-tag">MOST POPULAR</h4>
-            <h3><a href="#" class="white-title">Just putting it out there: Please Netflix, don’t kill TV</a></h3>
-            <p>Már Másson • Maack 1 day ago</p>
-          </div>
-        </a>
+        <div class="distract-big aquamarine-big">
+          <h4 class="white-tag">MOST POPULAR</h4>
+          <h3><a href="#" class="white-title">Just putting it out there: Please Netflix, don’t kill TV</a></h3>
+          <p>Már Másson • Maack 1 day ago</p>
+        </div>
         <div class="latest-aquamarine">
           <div>
             <h4>LATEST</h4>
-            <h3><a href="#">Real estate firm offers free paranormal investigation for prospective
+            <h3><a href="#" class="aquamarine-title">Real estate firm offers free paranormal investigation for
+                prospective
                 homeowners</a></h3>
           </div>
           <img src="./img/distract1.png" alt="A man and a woman standing near a microphone">
         </div>
         <ul>
-          <li><a href="#">Donald Trump has a Twitch channel and now I've seen everything</a></li>
-          <li><a href="#">Steam will soon allow you to play couch co-op games with people online</a></li>
-          <li><a href="#">Here's the game I expect to see bundled with the PS5</a></li>
-          <li><a href="#">Wendy's (yes, Wendy's) released a tabletop RPG</a></li>
-          <li><a href="#">$900 branded cookware is insane, even for Star Wars fans</a></li>
+          <li><a href="#" class="aquamarine-list">Donald Trump has a Twitch channel and now I've seen everything</a>
+          </li>
+          <li><a href="#" class="aquamarine-list">Steam will soon allow you to play couch co-op games with people
+              online</a></li>
+          <li><a href="#" class="aquamarine-list">Here's the game I expect to see bundled with the PS5</a></li>
+          <li><a href="#" class="aquamarine-list">Wendy's (yes, Wendy's) released a tabletop RPG</a></li>
+          <li><a href="#" class="aquamarine-list">$900 branded cookware is insane, even for Star Wars fans</a></li>
         </ul>
       </article>
     </section>
@@ -505,7 +529,7 @@
     <section class="orange">
       <div class="orange-header">
         <h2 class="title-click">Latest deals ></h2>
-        <a href="#">See all Deals</a>
+        <a href="#" class="orange-header-anchor">See all Deals</a>
       </div>
       <div class="orange-offers">
         <article class="offer">
@@ -659,21 +683,21 @@
         </div>
 
         <ul class="footer-links">
-          <li><a href="#">EVENTS</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">ADVERTISE</a></li>
-          <li><a href="#">JOBS</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#" class="footer-links-anchor">EVENTS</a></li>
+          <li><a href="#" class="footer-links-anchor">ABOUT</a></li>
+          <li><a href="#" class="footer-links-anchor">ADVERTISE</a></li>
+          <li><a href="#" class="footer-links-anchor">JOBS</a></li>
+          <li><a href="#" class="footer-links-anchor">CONTACT</a></li>
         </ul>
 
       </div>
       <div class="bottom-footer">
-        <div>
+        <div class="bottom-footer-div">
           <p class="copyright"><img class="small-tnw" src="./img/tnw.svg" alt=" tnw logo"> © 2006-2019 The Next Web B.V.
           </p>
         </div>
         <p class="copyright"> Made with <span class="heart"> ❤ </span> in Amsterdam. </p>
-        <div>
+        <div class="bottom-footer-div">
           <p class="copyright">Powered<span id="cheat">_</span>by <img class="stackpath" src="./img/stackpath.svg"
               alt="stackpath logo"> </p>
         </div>
