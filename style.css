@@ -728,7 +728,7 @@ a {
 
   .yellow-article {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 60% 40%;
     grid-template-columns: 23% 77%;
   }
 
@@ -845,7 +845,6 @@ a {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 3fr 2fr;
     grid-gap: 8px;
-    height: 47vh;
   }
 
   .big-blue-article-logos {
@@ -882,7 +881,7 @@ a {
 
   .yellow-article {
     display: grid;
-    grid-template-rows: 60% 20% 20%;
+    grid-template-rows: 60% 30% 10%;
   }
 
   .yellow-article-thumbnail {
@@ -965,6 +964,10 @@ a {
     display: none;
   }
 
+  .lower-nav {
+    padding: 0 15px;
+  }
+
   /* Group 2 - Blue */
 
   .blue-section {
@@ -1008,7 +1011,7 @@ a {
 
   .yellow-article {
     display: grid;
-    grid-template-rows: 60% 20% 20%;
+    grid-template-rows: 60% 30% 10%;
   }
 
   .yellow-article-thumbnail {
