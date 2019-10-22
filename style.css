@@ -149,7 +149,7 @@ a {
 .to-the-right > * {
   border-left: #eee solid 1px;
   padding: 15px;
-  color: #ff4422;
+  color: #f42;
   font-size: 15px;
   height: 16px;
 }
@@ -260,7 +260,7 @@ a {
 .yellow-info {
   color: rgb(165, 164, 164);
   font-size: 14px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 /* Group 4 - Fuschia */
@@ -287,7 +287,7 @@ a {
   padding: 15px 0 15px 0;
 }
 
-.orange-title-text{
+.orange-title-text {
   margin-left: 30%;
   padding: 10px 0 14px 0;
   color: white;
@@ -296,7 +296,7 @@ a {
 }
 
 .fuschia-article-orange {
-  background: #ff4422;
+  background: #f42;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -322,19 +322,19 @@ a {
 .fuschia-article-light-orange-money {
   font-weight: 850;
   font-size: 18px;
-color: black;
+  color: black;
 }
 
 .orange-icon {
-height: 12px;
-width: auto;
-margin: 8px 5px 5px 20px;
+  height: 12px;
+  width: auto;
+  margin: 8px 5px 5px 20px;
 }
 
 .fuschia-paragraph {
-display: flex;
-flex-direction: row;
-justify-content: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
 }
 
 .orange-gray-background {
@@ -342,7 +342,7 @@ justify-content: baseline;
 }
 
 .fuschia-article-small-text {
- height: 60px;
+  height: 60px;
 }
 
 .fuschia-little-text {
@@ -376,11 +376,21 @@ justify-content: baseline;
   flex: 1;
 }
 
+.aquamarine-article h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title-click:hover {
+  color: black;
+  cursor: pointer;
+}
+
 .aquamarine-article li {
   color: #f42;
   margin-left: 16px;
   padding: 10px 0;
-  border-bottom: 1px solid #eee ;
+  border-bottom: 1px solid #eee;
 }
 
 .aquamarine-article li a {
@@ -403,6 +413,10 @@ justify-content: baseline;
 .white-title {
   color: white;
   font-weight: 700;
+}
+
+.white-title:hover {
+  text-decoration: underline rgba(255, 255, 255, 0.6);
 }
 
 .aquamarine-article a p {
@@ -468,12 +482,12 @@ justify-content: baseline;
   display: flex;
   flex-direction: row;
   background: rgba(255,68,34,.06);
-  color:#f42;
+  color: #f42;
   padding: 15px 10px;
 }
 
 .latest-aquamarine h3 a{
-  color:#f42;
+  color: #f42;
   font-size: 14px;
 }
 
@@ -499,12 +513,23 @@ justify-content: baseline;
 .orange {
   display: flex;
   flex-direction: column;
+  margin: 60px 20px;
 }
 
 .orange-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.orange-header a {
+  color: #f42;
+}
+
+.orange-header a:hover {
+  color: black;
 }
 
 .offer {
@@ -512,15 +537,51 @@ justify-content: baseline;
   flex-direction: row;
 }
 
+.offer > * {
+  margin-bottom: 5px;
+}
+
+.offer div > * {
+  margin-bottom: 10px;
+}
+
 .offer img {
   width: 75px;
   height: 75px;
+  cursor: pointer;
 }
 
 .offer-prices {
   display: flex;
   flex-direction: row;
   justify-items: flex-start;
+}
+
+.offer h3 {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.offer h3:hover {
+  text-decoration: #f9c4c1 underline;
+  color: #f42;
+}
+
+.offer h5 {
+  color: #555;
+}
+
+.offer h6 {
+  text-decoration: line-through;
+  color: #aaa;
+  margin-right: 5px;
+}
+
+.offer h5,
+.offer h6 {
+  font-weight: 300;
+  font-size: 14px;
 }
 
 /*  Group 7 - Purple */
@@ -842,6 +903,8 @@ justify-content: baseline;
   .orange-offers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: inherit;
   }
 
   .offer {
