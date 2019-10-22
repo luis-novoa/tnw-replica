@@ -603,7 +603,7 @@ a {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 10px;
-  background: aquamarine;
+  background: #131313;
 }
 
 .social-media-icons {
@@ -617,21 +617,34 @@ a {
   flex-direction: row;
   margin-top: 1em;
   font-size: 0.7em;
-}
-
-.footer-links > li {
-  margin: 0 5px;
+  list-style-type: none;
   text-decoration: none;
 }
 
+.footer-links > li {
+  margin: 3vh 1vw;
+}
+
+.footer-links > li > a {
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.footer-links > li > a:hover {
+  color: rgba(255, 255, 255, 0.9)
+}
 
 .social-media-icons .genericon {
-  margin: 0 10px;
-  padding: 4px;
-  border: 1px solid purple;
-  background: purple;
+  margin: 0 0.5vw;
+  padding: 10px;
+  border: 2px solid #333333;
+  background: #333333;
   color: white;
   border-radius: 50%;
+}
+
+.social-media-icons .genericon:hover {
+  background: #131313;
+  
 }
 
 .bottom-footer {
@@ -675,6 +688,7 @@ a {
 
 .copyright {
   margin: 5px 5px;
+  color: rgba(255, 255, 255, 0.7)
 }
 
 #cheat {
