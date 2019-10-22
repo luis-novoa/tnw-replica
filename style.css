@@ -270,7 +270,7 @@ a {
 }
 
 .fuschia-main {
-  width: 70%;
+  width: 100%;
   margin: 20px 20px 20px 20px;
 }
 
@@ -286,7 +286,6 @@ a {
   border-bottom: 1px rgba(255, 68, 34, 0.5) solid;
   padding: 15px 0 15px 0;
 }
-
 
 .orange-title-text{
   margin-left: 30%;
@@ -326,7 +325,6 @@ a {
 color: black;
 }
 
-
 .orange-icon {
 height: 12px;
 width: auto;
@@ -353,6 +351,15 @@ justify-content: baseline;
 
 .fuschia-little-text-gray {
   color: rgb(170, 169, 169);
+}
+
+.fuschia-header-links-right {
+  color:#ff4422;
+  text-decoration: none;
+}
+
+.fuschia-header-links-right:hover {
+  color: black;
 }
 
 /* Group 5 - Aquamarine */
@@ -678,6 +685,7 @@ justify-content: baseline;
   .fuschia-header-links {
     display: flex;
     flex-direction: column;
+    display: none;
   }
 
   .fuschia-hidden {
@@ -794,11 +802,15 @@ justify-content: baseline;
   .fuschia-header-links {
     display: flex;
     flex-direction: row;
+    margin-left: 20px;
   }
   
   .fuschia-main {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin-right: 15px;
+    width: inherit;
   }
   
   .fuschia-hidden {
@@ -918,16 +930,23 @@ justify-content: baseline;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+
   }
 
   .fuschia-header-links {
     display: flex;
     flex-direction: row;
+    margin-right: 35px;
+    color:#ff4422;
   }
 
   .fuschia-main {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    width: inherit;
+    
   }
 
   .fuschia-hidden {
