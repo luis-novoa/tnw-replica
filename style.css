@@ -4,6 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  width: 100%;
+}
+
 h1 {
   color: white;
   font-family: Shentox, sans-serif;
@@ -270,7 +274,7 @@ a {
 }
 
 .fuschia-main {
-  width: 100%;
+  width: inherit;
   margin: 20px 20px 20px 20px;
 }
 
@@ -366,7 +370,7 @@ a {
 .aquamarine {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: inherit;
   padding: 60px 20px;
 }
 
