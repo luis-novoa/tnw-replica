@@ -342,11 +342,11 @@ a {
 }
 
 .fuschia-article-small-text {
-  height: 60px;
+  height: 80px;
 }
 
 .fuschia-little-text {
-  margin: 20px 5px 5px 20px;
+  padding: 20px 5px 10px 20px;
 }
 
 .fuschia-little-text-gray {
@@ -741,8 +741,12 @@ a {
   .fuschia {
     display: flex;
     flex-direction: column;
+    width: inherit;
   }
 
+  .fuschia-marin {
+    width: inherit;
+  }
   .fuschia-header-links {
     display: flex;
     flex-direction: column;
@@ -753,6 +757,17 @@ a {
     display: none;
   }
 
+  .fuschia-main > article {
+    margin-bottom: 15px;
+  }
+
+  .orange-title-text {
+    margin-left: 10%;
+  }
+
+  .fuschia-article-light-orange-text {
+    margin-left: 10%;
+  }
   /* Group 5 - Aquamarine */
   .apps-big,
   .creative-big,
@@ -869,7 +884,7 @@ a {
   .fuschia-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 0 1em;
     margin-right: 15px;
     width: inherit;
   }
