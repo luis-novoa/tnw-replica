@@ -272,6 +272,10 @@ a {
   margin-top: 0;
 }
 
+.yellow-article-title {
+  padding-bottom: 2em;
+}
+
 /* Group 4 - Fuschia */
 
 .fuschia-title-of-titles {
@@ -603,7 +607,7 @@ a {
 .social-media-icons {
   display: flex;
   flex-direction: row;
-  justify-items: space-around;
+  justify-content: space-around;
 }
 
 .footer-links {
@@ -629,8 +633,7 @@ a {
 
 .social-media-icons .genericon {
   margin: 0 0.5vw;
-  padding: 10px;
-  border: 2px solid #333;
+  padding: 12px;
   background: #333;
   color: white;
   border-radius: 50%;
@@ -638,6 +641,8 @@ a {
 
 .social-media-icons .genericon:hover {
   background: #131313;
+  padding: 10px;
+  border: 2px solid #333;
 }
 
 .bottom-footer {
@@ -715,7 +720,7 @@ a {
     margin-bottom: 15px;
   }
 
-  .yellow-section {
+  .yellow-div {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
@@ -738,7 +743,11 @@ a {
 
   .yellow-article-image {
     width: auto;
-    height: 100px;
+    height: 100%;
+    vertical-align: middle;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   /* Group 4 - Fuschia */
@@ -859,7 +868,7 @@ a {
 
   /* Group 3 - Yellow */
 
-  .yellow-section {
+  .yellow-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -883,8 +892,8 @@ a {
   }
 
   .yellow-article-image {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: inherit;
   }
 
   /* Group 4 - Fuschia */
@@ -986,7 +995,7 @@ a {
 
   /* Group 3 - Yellow */
 
-  .yellow-section {
+  .yellow-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -1009,8 +1018,8 @@ a {
   }
 
   .yellow-article-image {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: inherit;
   }
 
   /* Group 4 - Fuschia */
