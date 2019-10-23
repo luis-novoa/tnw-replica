@@ -848,10 +848,7 @@ a {
   }
 
   .big-blue-article-logos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 15px;
+    display: none;
   }
 
   #big-blue-article {
