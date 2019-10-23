@@ -2,10 +2,6 @@
 
 module.exports = {
   "extends": "stylelint-config-recommended",
-  "ignoreFiles": [
-    "TNW-big_files/*.css",
-    "genericons.css"
-  ],
   "rules": {
     "at-rule-empty-line-before": ["always", {
       except: [
