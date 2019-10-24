@@ -1,0 +1,196 @@
+Group 1 - Green
+------- Small------------------------------------------------------------
+	
+	nav bar
+	grid
+	       a  bbbbbcd
+	       e  fffffff
+	
+		a - <img>
+		b - <a>
+		c - <search button>
+		d - <hamburger menu>
+
+
+------- Medium------------------------------------------------------------
+	
+	nav bar
+	grid
+		a bbbbbbb
+		a ccccccc
+		ddddddddd
+
+		a - <img>
+		b - <nav>
+		c - <nav>
+		d - <nav clicky>
+
+		
+------- Large------------------------------------------------------------
+	
+	nav bar
+	<header>
+		<nav>
+		<nav>
+		<nav clicky>
+	</header>  
+
+<main>
+
+Group 2 - Blue <section>
+------- Small------------------------------------------------------------
+	
+	< grid> grid-template-rows (optional)
+<article>
+<article>
+<article>
+------- Medium------------------------------------------------------------
+
+Grid aa b
+	     aa c
+	a- <article>
+	b- <article>
+	c- <article>
+
+------- Large------------------------------------------------------------
+	
+Grid aa b
+	     aa c
+	a- <article>
+	b- <article>
+	c- <article>
+
+group 3 - yellow <section>
+------- Small------------------------------------------------------------
+
+<h2>
+<article>
+<article>
+<article>
+<article>
+<article>
+<article>
+<article>
+<article>
+
+------- Medium------------------------------------------------------------
+
+<h2>
+	 grid a a a
+	      a a a
+	      a a
+
+	a - <article>
+
+------- Large------------------------------------------------------------
+	<h2>
+	 grid a a a a
+	      a a a a
+
+	a - <article>
+
+group 4 - fuschia - <section>
+------- Small------------------------------------------------------------
+<h2>
+<aside>
+  <a>
+  <a>
+  <a>
+<article>
+<article>
+<article>
+<article>
+------- Medium------------------------------------------------------------
+
+	<h2>
+	<aside> (Add infor | Get upd...etc)
+	 grid a a a 
+	a - <article>
+
+------- Large------------------------------------------------------------
+	<h2>
+	<aside> (Add infor | Get upd...etc)
+	 grid a a a a
+	a - <article>
+
+group 5 - aquamarine - <section>
+
+------- Small------------------------------------------------------------
+
+------- Medium------------------------------------------------------------
+
+------- Large------------------------------------------------------------
+	grid a a a
+	     a a a
+	     a a
+
+	a - <article>
+
+group 6 - orange - <section>
+
+------- Small------------------------------------------------------------
+
+<h2>
+<article>
+<article>
+<article>
+<article>
+<article>
+<article>
+<article>
+<article>
+
+------- Medium------------------------------------------------------------
+
+	<h2>
+	grid a a a
+	     a a a
+	     a a 
+
+	a - <article>
+
+------- Large------------------------------------------------------------
+	
+	<h2>
+	grid a a a a
+	     a a a a 
+
+	a - <article>
+
+group 7 - purple - <footer>
+---------- same on all sizes----------------
+	grid a a a a a a a
+	     b b b b b
+		<p>
+	a - social media icons
+	b - <a>
+
+
+CSS
+
+common CSS
+------
+Rules that never change
+	colors
+	fonts
+	text decoration
+	etc
+------
+
+CSS for small MQ
+-----
+-----
+CSS for medium MQ
+-----
+-----
+CSS for large MQ 
+-----
+-----
+
+
+Within each one
+
+-g1
+-g2
+-g3
+etc
