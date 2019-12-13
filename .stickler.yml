@@ -1,8 +1,0 @@
-linters:
-  stylelint:
-    config: 'stylelint.config.js'
-
-files:
-  ignore:
-    - 'genericons.css'
-    - 'TNW-big_files/*'
